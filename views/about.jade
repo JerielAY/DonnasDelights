@@ -1,0 +1,28 @@
+extends layout
+
+block content
+    div#about
+        div#ajumbo1.large.jumbotron.jumbotron-fluid
+            .large.jumbotron.jumbotron-fluid#mission
+                .ui.centered.header#missionwords COOKING CHRIST INTO THE WORLD!!
+            #aboutheader.ui.left.aligned.huge.header About Donnas Delights
+            #ajumbobio.large.jumbotron.jumbotron-fluid
+                .ui.three.column.top.aligned.centered.padded.grid
+                    //- Donna
+                    .ui.top.aligned.row
+                        .ui.centered.column
+                            .ui.centered.block.header#abouttileheader  Donna May Aseidu
+                            #aboutimages.ui.large.centered.rounded.top.attached.image
+                                img(src='/images/blackbaker.jpg')
+                        .ui.centered.eight.wide.column
+                            .ui.raised.segment.header#bio 
+                                p|After working at Riverside Hospital for over 17 years in patient care, Donna has mastered the art of personal touch. 
+                                p|Despite the challenging nature of this career, she realized that love, patience and care were paramount in providing the most ideal patient experience. Carrying this expertise into her culinary creations, she came to the epiphany that these same qualities make the dough a little sweeter, and the meat fall off the bone. 
+                                p|Aside from from her extensive experience, Donna credits age-old family recipes, and the prayers continually lifted up while cooking, for the incredible flavors in her meals.
+                                p|Donna currently supports her two children Isaac [age] and Blessing [age] as a single mother, while supervising the Faith Klinik Food Pantry which serves over 150+ families in the community.
+                    .ui.hidden.divider
+            #ajumbosupport.large.jumbotron.jumbotron-fluid
+                .ui.three.column.centered.padded.grid 
+                    .ui.centered.row
+                        .ui.header#supportstatement If you're interested in supporting Donna's Delights click here to 
+                            a(href='/order') learn more                         

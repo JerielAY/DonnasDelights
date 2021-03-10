@@ -1,0 +1,153 @@
+:root{
+  --main-color: #black;
+  --secondary-color: #FFE7A4;
+  --tertiary-color: #654321;
+  --fourth-color: #D4AF37;
+
+}
+/* Global */
+body {
+  font-family: 'Yusei Magic',sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#topmenu{
+  background-color: var(--tertiary-color);
+  color:var(--fourth-color);
+  padding-bottom: .5vw;
+  padding-left: 1vw;
+  padding-right: 0;
+  padding-top: 0;
+  font-family: 'Yusei Magic', sans-serif;
+
+}
+#innermenusquare{
+  background-color: inherit;
+  color:var(--fourth-color);
+  font-family: 'Yusei Magic', sans-serif;
+}
+#innermenu{
+  background-color: var(--tertiary-color);
+  color: var(--fourth-color);
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+#menuwords{
+  color: var(--fourth-color);
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+
+/* Home page */
+#jumbo1{
+  background-image: url("/images/donnasbackgroundgold.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* About Page */
+#ajumbo1{
+  /* background-color: var(--second-color); */
+  background-image: url("/images/wood.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;  
+  margin: 0%;
+}
+
+#ajumbobio{
+  background: inherit;
+  margin: 0%;
+}
+#ajumbosupport{
+  background-color: var(--fourth-color) ;
+  /* margin: 0%; */
+}
+#mission{
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 1.6vw;
+  margin: 0%;
+  color: var(--main-color);
+  background-color: var(--secondary-color);
+  margin-top: -1%;
+}
+#missionwords{
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 3vw;
+  margin: 0%;
+  color: var(--fourth-color);
+}
+
+#aboutheader{
+  font-family: 'Yusei Magic', sans-serif;
+  padding: 5vw;
+  font-size: 5vw;
+  color: var(--fourth-color);
+}
+
+#abouttileheader{
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 1.6vw;
+  margin: 0%;
+  color: var(--fourth-color);
+  background-color: black;
+}
+#aboutimages{
+  margin-top: 0%;
+}
+#bio{
+  font-family: 'Yusei Magic', sans-serif;
+  font-size: 1.6vw;
+  color:var(--fourth-color);
+  margin-top: -2%;
+}
+#supportstatement{
+  font-family: 'Yusei Magic', sans-serif;
+  color: white;
+  font-size: 1.6vw;
+}
+
+/* Order page */
+#dishes{
+  background-image: url("/images/table.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;  
+}
+
+#djumbo1{
+  background: inherit;
+}
+
+#mouthwaterin{
+  background: inherit;
+  font-family: 'Yusei Magic', sans-serif;
+  color: white;
+  font-size: 5vw;
+}
+#mouthwaterinhidden{
+  /* background: inherit; */
+  font-family: 'Yusei Magic', sans-serif;
+  color: white;
+  /* font-size: 5vw; */
+  background-color: var(--fourth-color);
+  background-size: 5vw;
+}
+
+#divinelysegment{
+  background-color: var(--fourth-color);
+}
+
+#products{
+  background: inherit;
+}

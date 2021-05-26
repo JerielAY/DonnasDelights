@@ -6,3 +6,5 @@ She's looking to turn it into a small business and I felt like a website would g
 You can view this by running npm and locally hosting it (localhost3000)
 
 Soon to be deployed tho
+
+Tech Stack: JSON, npm, Express.js, Jade/Pug, CSS

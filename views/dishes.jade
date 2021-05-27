@@ -19,13 +19,7 @@ block content
                     .ui.three.column.grid
                         -stuff = foods   
                             each food in foods
-                                - for(i=0;i<food.length;i++){
-                                    -item = food[i]
-                                    -
-                                    -row = document.getElementByID('products')
-                                    -segment = document.getElementByID('dsegment')
-                                    -row.appendChild(segment.cloneNode)
-                                    -}
+                                -item = food
                                     .ui.row#products
                                         .ui.rounded.compact.segment#dsegment
                                             .ui.small.rounded.image

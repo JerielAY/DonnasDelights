@@ -16,12 +16,20 @@ block content
                                         .ui.header#mouthwaterin Mouth Watering
             .large.large.jumbotron.jumbotron-fluid#products 
                 .ui.grid.container  
-                    .ui.four.column.padded.grid
-                        .ui.row
-                            .ui.column
-                                .ui.fluid.segment
-                                    
-                            .ui.column
-                                .ui.fluid.segment
-                            .ui.column
-                                .ui.fluid.segment
+                    .ui.three.column.grid
+                        -stuff = foods   
+                            each food in foods
+                                - for(i=0;i<food.length;i++){
+                                    -item = food[i]
+                                    -
+                                    -row = document.getElementByID('products')
+                                    -segment = document.getElementByID('dsegment')
+                                    -row.appendChild(segment.cloneNode)
+                                    -}
+                                    .ui.row#products
+                                        .ui.rounded.compact.segment#dsegment
+                                            .ui.small.rounded.image
+                                                img(src=item.img)
+                                            .ui.centered.header#dfoodtitles 
+                                                    = item.name
+                    

@@ -7,7 +7,7 @@ var logger = require('morgan');
 //JSON stuff
 const fs = require('fs');
 var foods = {};
-fs.readFileSync('food_pics.json','utf-8',(err,data) => {
+fs.readFileSync('foodpics.json','utf-8',(err,data) => {
   if(err){
     console.log("Problem loading the JSON Object");
   }else{

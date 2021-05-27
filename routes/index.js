@@ -1,6 +1,7 @@
 var express = require('express');
 var router = express.Router();
-let foods = require('./food_pics.json');
+
+var foods = require('/DonnasDelights/foodpics.json');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -23,7 +24,7 @@ router.get("/order", function(req, res, next) {
 
 ///Set up response for order page request
 router.get("/dishes", function(req, res, next) {
-
-  res.render("dishes",{json:foods});
+  res.render("dishes",{foods});
+  // let stuff = foods;
 });
 module.exports = router;

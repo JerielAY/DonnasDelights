@@ -151,3 +151,11 @@ a {
 #products{
   background: inherit;
 }
+
+#dfoodtitles{
+  color: var(--fourth-color);
+  font-family: 'Yusei Magic', sans-serif;
+}
+#dsegment{
+  background-color: var(--secondary-color);
+}
